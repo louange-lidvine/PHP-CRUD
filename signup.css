@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+fieldset{
+   width:30%;
+  background-color: burlywood;
+  height: 50%;
+  padding:30px;
+
+  color: rgb(25, 31, 31);
+}
+input{
+    padding-right: 2em;
+}
