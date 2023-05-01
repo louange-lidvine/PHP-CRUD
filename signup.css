@@ -6,11 +6,25 @@
 fieldset{
    width:30%;
   background-color: burlywood;
-  height: 50%;
+  height: 70%;
   padding:30px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
 
   color: rgb(25, 31, 31);
 }
 input{
     padding-right: 2em;
+}
+.form-group{
+    margin-top: 5px;
+}
+h2{
+    text-align: center;
+}
+.submit{
+margin-bottom: 3px;
 }
