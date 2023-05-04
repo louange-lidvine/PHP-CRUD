@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
     $sql = "INSERT INTO users (fname, lname, email, password, GENDER) VALUES ('$fname', '$lname', '$email', '$password', '$GENDER')";
 
     if($conn->query($sql)){
-        echo "New record created successfully";
+        // echo "New record created successfully";
         header('Location: display.php');
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;

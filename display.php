@@ -21,7 +21,6 @@ include 'connection.php';
       <th scope="col">fname</th>
       <th scope="col">lname</th>
       <th scope="col">email</th>
-      <th scope="col">password</th>
       <th scope="col">gender</th>
       <th scope="col">Operations</th>
     </tr>
@@ -37,15 +36,13 @@ include 'connection.php';
             $fname=$row['fname'];
             $lname=$row['lname'];
             $email=$row['email'];
-            $password=$row['password'];
             $gender=$row['GENDER'];
             echo "<tr>
             <th scope='row'>$fname</th>
             <td>$lname</td>    
-            <td>$email</td>
-            <td>$password</td>        
+            <td>$email</td> 
             <td>$gender</td> 
-            <td>
+          <td>
         <a href='updateform.php?id=$id' class='btn btn-primary btn-sm'>Update</a>
                 <a href='delete.php?id=$id' class='btn btn-danger btn-sm'>Delete</a>
                   <a href='pdf.php' class='btn btn-primary btn-sm'>Export</a>

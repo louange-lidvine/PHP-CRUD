@@ -34,11 +34,12 @@
                 <input type="radio" id="gender" name="GENDER" value="male" >
                 <label for="male">Male</label>
                 <input type="radio" id="gender" name="GENDER" value="female">
-                <label for="female">Female</label><br>
+                <label for="female">Female</label>
             </div>
 
             <div class="form-group">
                 <input type="submit" value="Submit" name="submit" class="submit">
+				<button><a href="login.php">Login</a></button>
             </div>
 			</fieldset>
         </form>
